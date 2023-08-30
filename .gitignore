@@ -1,3 +1,14 @@
+# project related file, dir
+models/
+share/
+scripts/
+include/
+etc/
+playground.*
+*.cfg
+*.png
+*.jpg
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -120,7 +131,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
