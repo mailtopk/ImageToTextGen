@@ -17,13 +17,9 @@ def load_processor_model():
     return processor, model
 
 
-def image_to_text(image):
-    image_bytes = bytes(image)
-    raw_image =  Image.open(io.BytesIO(image_bytes)).convert('RGB')
-    processor, model = load_processor_model()
+def image_to_text(image_io_bytes):    
+    raw_image =  Image.open(image_io_bytes).convert('RGB')    
+    processor, model = load_processor_model()    
     inputs = processor(raw_image, return_tensors='pt')
     output = model.generate(**inputs, max_new_tokens=15000)
-    image_text = processor.decode(output[0], skip_special_tokens=True)
-    io.BytesIO(image_bytes).close()
-
-    return image_text
+    return processor.decode(output[0], skip_special_tokens=True)
