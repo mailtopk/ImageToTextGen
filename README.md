@@ -13,8 +13,12 @@ This code generates text description from a image.
     C:\Users\mailtopk\src\ImageToTextGen>.\imggen\Scripts\activate.bat
 ```
 
-### install required packages
+### Install required packages
 ```dos
     C:\Users\mailtopk\src\ImageToTextGen>pip install -r .\requirements.txt
 ```
 
+### Run 
+```dos
+  C:\Users\mailtopk\src\ImageToTextGen> streamlit run .\main.py
+```
