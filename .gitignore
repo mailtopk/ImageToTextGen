@@ -6,7 +6,6 @@ include/
 etc/
 playground.*
 *.cfg
-*.png
 *.jpg
 
 # Byte-compiled / optimized / DLL files
