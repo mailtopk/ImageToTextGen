@@ -12,6 +12,7 @@ model_name = os.environ.get("MODEL_NAME")
 
 def load_processor_model():
     # Load model directly, first time this may few min to download the model
+    # Bootstrapping Language-Image Pre-training
     processor = BlipProcessor.from_pretrained(model_name, cache_dir=model_dir)
     model = BlipForConditionalGeneration.from_pretrained(model_name)
     return processor, model

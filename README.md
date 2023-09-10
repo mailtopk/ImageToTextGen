@@ -14,6 +14,7 @@ To learn more about BLIP https://blog.salesforceairesearch.com/blip-bootstrappin
 ```dos
     C:\Users\mailtopk\src\ImageToTextGen>.\imggen\Scripts\activate.bat
 ```
+If Powershell script, run activate.ps1
 
 ### Install required packages
 ```dos
@@ -24,14 +25,18 @@ To learn more about BLIP https://blog.salesforceairesearch.com/blip-bootstrappin
 ```dos
   C:\Users\mailtopk\src\ImageToTextGen>streamlit run .\main.py
 ``` 
+For first run, code download the model, this may take some time
 
-### UI
-Image used in application credit:
-- https://unsplash.com/@birgittaroos
-- https://unsplash.com/license
+### Application
 
-Main Screen
+Image credit: **[Gabin Vallet]("https://unsplash.com/@gabinvallet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText")** on **[Unsplash]("https://unsplash.com/photos/J154nEkpzlQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText")**
+  
 
+![Main Screen](images/MainScreen2.png)
+
+Image credit: **[Birgitta Roos]("https://unsplash.com/@birgittaroos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText")**
+on **[Unsplash]("https://unsplash.com/photos/5Q30qduJfVg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText")**
+  
 ![Main Screen](images/MainScreen.png)
 
 
