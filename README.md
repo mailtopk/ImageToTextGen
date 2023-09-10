@@ -25,17 +25,17 @@ If Powershell script, run activate.ps1
 ```dos
   C:\Users\mailtopk\src\ImageToTextGen>streamlit run .\main.py
 ``` 
-For first run, code download the model, this may take some time
+For first run, code download the model, this may take some time.
+__streamlit run .\main.py__ command should start application and open the interface in browser 
 
 ### Application
 
-Image credit: **[Gabin Vallet](https://unsplash.com/@gabinvallet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)** on **[Unsplash](https://unsplash.com/photos/J154nEkpzlQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)**
+Image credit: [Gentrit Sylejmani](https://unsplash.com/@gentritbsylejmani?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/JjUyjE-oEbM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
   
-
 ![Main Screen](images/MainScreen2.png)
 
-Image credit: **[Birgitta Roos](https://unsplash.com/@birgittaroos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText")**
-on **[Unsplash]("https://unsplash.com/photos/5Q30qduJfVg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)**
+Image credit: [Birgitta Roos](https://unsplash.com/@birgittaroos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText")
+on [Unsplash](https://unsplash.com/photos/5Q30qduJfVg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
   
 ![Main Screen](images/MainScreen.png)
 
